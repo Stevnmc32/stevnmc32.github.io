@@ -1,0 +1,38 @@
+.piano {
+  position: relative;
+  margin: 0px;
+}
+.white_keys{
+  position:absolute;
+  margin: 0;
+  z-index: 1;
+  font-size: 0;
+}
+.white_keys button {
+  background-color: white;
+  border: 1;
+  border-color: black;
+  color: white;
+  padding: 50px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+}
+
+.black_keys {
+  position:absolute;
+  margin: 0;
+  z-index: 2;
+  font-size: 0;
+}
+.black_keys button {
+  background-color: black;
+  border: 0;
+  color: black;
+  padding: 30px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+}
