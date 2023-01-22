@@ -2,6 +2,9 @@ body{
   height:100vh;
   margin: 10;
 }
+button{
+  padding: 0 0;
+}
 .piano {
   width: 100%;
   height: 25%;
