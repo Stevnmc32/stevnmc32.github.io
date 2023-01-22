@@ -1,13 +1,12 @@
 body{
-  height:100vh;
-  margin: 10;
+  height:90vh;
 }
 button{
   padding: 0 0;
 }
 .piano {
   width: 100%;
-  height: 25%;
+  height: 40%;
   text-align: center;
 }
 .keys {
