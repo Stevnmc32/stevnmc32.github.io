@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>VizesTipp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="inside">
+    <div class="outside" id="outside">
+        <div class="texts">
+            <h1>VizesTipp</h1>
+            <p>Tippeld meg a különböző tárgyak közül melyik gyártásához használnak fel több vizet!</p>
+            <button onclick="start()">Kezdés!</button>
+            <br><br>
+            <a href="images/credit.html">Hogy senki ne köthessen belém...</a>
+        </div>
+    </div>
+    <div class="inside" id="inside">
         <div class="texts">
             <h1>Melyik elkészítéséhez használnak fel több vizet?</h1>
             <p id="points">pontok: 0</p>
@@ -15,13 +28,24 @@
         <div class="options">
             
             <div class="first option">
+                <img src="images/Alma.jpg" id="first_i"></img>
                 <p id="first_t"></p>
-                
-                <button onclick="clicked(0)"></button>
+                <button onclick="clicked(0)" id="first_b"></button>
             </div>
             <div class="second option">
+                <img src="images/Körte.jpg" id="second_i"></img>
                 <p id="second_t"></p>
-                <button onclick="clicked(1)"></button>
+                <button onclick="clicked(1)" id="second_b"></button>
+            </div>
+        </div>
+        <div class="end" id="end">
+            <div class="game_over_box">
+                <h1>Vesztettél!</h1>
+                <p id="end_points"></p>
+                <div class="two_buttons">
+                    <button onclick='document.getElementById("end").style.display="none";first_button.innerHTML=""; second_button.innerHTML="";gen_new();'>Próbáld újra</button>
+                    <button onclick='first_button.innerHTML=""; second_button.innerHTML="";end();'>Feladás</button>
+                </div>
             </div>
         </div>
     </div>

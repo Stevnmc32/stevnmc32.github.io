@@ -1,30 +1,39 @@
-Apple	1kg	700
-Pear	1kg	700
-Banana	1kg	860
-Beef	1kg	15500
-Beer (from barley)	250ml	75
-Bread (from wheat)	1kg	1300
-Cabbage	1kg	200
-Cheese	1kg	5000
-Chicken	1kg	3900
-Chocolate	1kg	24000
-Coffee	125ml	140
-Cucumber	1kg	240
-Pumpkin	1kg	240
-Dates	1kg	3000
-Groundnuts (in shell)	1kg	3100
-Lettuce	1kg	130
-Maize	1kg	900
-Mango	1kg	1600
-Milk	250ml	250
-Olives	1kg	4400
-Orange	1kg	460
-Peach	1kg	1200
-Nectarine	1kg	1200
-Pork	1kg	4800
-Potato	1kg	250
-Rice	1kg	3400
-Sugar (from sugarcane)	1kg	1500
+Alma	1kg	700
+Körte	1kg	700
+Banán	1kg	860
+Marhahús	1kg	15500
+Sör (árpából)	250ml	75
+Kenyér (búzából)	1kg	1300
+Káposzta	1kg	200
+Sajt	1kg	5000
+Csirkehús	1kg	3900
+Csokoládé	1kg	24000
+Kávé	125ml	140
+Uborka	1kg	240
+Tök	1kg	240
+Datolya	1kg	3000
+Földimogyoró	1kg	3100
+Saláta	1kg	130
+Kukorica	1kg	900
+Mangó	1kg	1600
+Tej	250ml	250
+Olívabogyó	1kg	4400
+Narancs	1kg	460
+Kajszibarack	1kg	1200
+Őszibarack	1kg	1200
+Disznóhús	1kg	4800
+Krumpli	1kg	250
+Rizs	1kg	3400
+Cukor (cukornádból)	1kg	1500
 Tea	250ml	30
-Tomato	1kg	180
-Wine	125ml	120
+Paradicsom	1kg	180
+Bor	125ml	120
+Tojás	1kg	3300
+Vaj	1kg	5600
+Búzaliszt	1kg	1800
+Mák	1kg	2200
+Avokádó	1kg	2000
+Szőlő	1kg	600
+Szilva	1kg	2200
+Cseresznye	1kg	1600
+Meggy	1kg	1400
