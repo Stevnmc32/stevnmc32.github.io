@@ -1,11 +1,40 @@
-html,
-body{
-    height: 98.5%;
+html{
+    height: 100%;
+    margin: 0;
 }
-
+body{
+    position:absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    max-width: none;
+    width: 100vw;
+    margin: 0;
+}
+.inside{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+}
 .option{
     width: 50%;
     height: inherit;
+}
+.option p{
+    position:absolute;
+    text-align: center;
+}
+.texts{
+    text-align: center;
+}
+.first.option p{
+    left: 25%;
+    transform: translate(-50%, 0);
+}
+.second.option p{
+    right: 25%;
+    transform: translate(50%, 0);
 }
 
 .option button{
@@ -17,5 +46,5 @@ body{
 .options{
     display: flex;
     justify-content: center;
-    height: 100%;
+    flex-grow: 1;
 }

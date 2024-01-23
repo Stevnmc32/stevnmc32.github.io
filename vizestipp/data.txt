@@ -1,0 +1,30 @@
+Apple	1kg	700
+Pear	1kg	700
+Banana	1kg	860
+Beef	1kg	15500
+Beer (from barley)	250ml	75
+Bread (from wheat)	1kg	1300
+Cabbage	1kg	200
+Cheese	1kg	5000
+Chicken	1kg	3900
+Chocolate	1kg	24000
+Coffee	125ml	140
+Cucumber	1kg	240
+Pumpkin	1kg	240
+Dates	1kg	3000
+Groundnuts (in shell)	1kg	3100
+Lettuce	1kg	130
+Maize	1kg	900
+Mango	1kg	1600
+Milk	250ml	250
+Olives	1kg	4400
+Orange	1kg	460
+Peach	1kg	1200
+Nectarine	1kg	1200
+Pork	1kg	4800
+Potato	1kg	250
+Rice	1kg	3400
+Sugar (from sugarcane)	1kg	1500
+Tea	250ml	30
+Tomato	1kg	180
+Wine	125ml	120
