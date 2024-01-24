@@ -1,5 +1,6 @@
 var data_text_raw=[]
 var data=[]
+var images=[];
 
 var first_text=document.getElementById("first_t");
 var second_text=document.getElementById("second_t");
@@ -25,22 +26,27 @@ await fetch("data.txt")
   return data_text_raw
 }
 async function thing(){
+
 await fetch_that()
 while (data_text_raw.length > 0){
   data.push(data_text_raw.splice(0,3))
 }
-document.getElementById("inside").style.display="none";
+for (d in data){
+  images.push((new Image()).src ="images/" +data[d][0]+".jpg");
+  console.log(images[d]);
+}
+
 }
 function gen_new(){
   do{
   var frst = Math.floor(Math.random() * data.length);
   frst_num =parseInt(data[frst][2])
   first_text.innerHTML=data[frst][1]+"-nyi "+data[frst][0];
-  first_image.src="images/"+data[frst][0]+".jpg"
+  first_image.src=images[frst];//.src="images/"+data[frst][0]+".jpg"
   var scnd = Math.floor(Math.random() * data.length);
   scnd_num =parseInt(data[scnd][2])
   second_text.innerHTML=data[scnd][1]+"-nyi "+data[scnd][0];
-  second_image.src="images/"+data[scnd][0]+".jpg"
+  second_image.src=images[scnd];//.src="images/"+data[scnd][0]+".jpg"
   }while(data[frst][2]/data[scnd][2]<2&&data[frst][2]/data[scnd][2]>0.5)
 }
 
