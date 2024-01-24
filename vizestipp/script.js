@@ -33,7 +33,7 @@ while (data_text_raw.length > 0){
   data.push(data_text_raw.splice(0,3))
 }
 for (d in data){
-  images.push((new Image()).src ="images/" +data[d][0]+".jpg");
+  await images.push((new Image()).src ="images/" +data[d][0]+".jpg");
 }
 finished=true;
 }
