@@ -103,7 +103,12 @@ function end(){
   document.getElementById("end").style.display="none";
   document.getElementById("inside").style.display="none";
 }
-(async()=> await thing())();
+function first(){
 
+(async()=> await thing())();
+console.log("done");
+document.getElementById("loading").style.display="none";
+}
+first();
 
 
