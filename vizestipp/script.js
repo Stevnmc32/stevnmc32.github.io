@@ -1,6 +1,7 @@
 var data_text_raw=[]
 var data=[]
 var images=[];
+var finished=false;
 
 var first_text=document.getElementById("first_t");
 var second_text=document.getElementById("second_t");
@@ -33,9 +34,8 @@ while (data_text_raw.length > 0){
 }
 for (d in data){
   images.push((new Image()).src ="images/" +data[d][0]+".jpg");
-  console.log(images[d]);
 }
-
+finished=true;
 }
 function gen_new(){
   do{
@@ -103,6 +103,7 @@ function end(){
   document.getElementById("end").style.display="none";
   document.getElementById("inside").style.display="none";
 }
-thing()
+(async()=> await thing())();
+
 
 
